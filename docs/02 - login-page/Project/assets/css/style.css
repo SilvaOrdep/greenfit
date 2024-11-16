@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../img/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.login-box {
+    width: 350px;
+    height: 360px;
+    background-color: #232526;
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.user-box input {
+    width: 280px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-color: #3d3f41;
+    border: none;
+    color: #fff;
+}
+
+.user-box ::placeholder{
+    color: #F2F2F2;
+}
+
+.user-box input:enabled {
+    outline: none;
+}
+
+.user-box input:focus {
+    color: #ffffff;
+}
+
+.user-box a {
+    width: 280px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-color: #3d3f41;
+    border: none;
+    color: #2C4027;
+}
+
+.button a {
+    width: 280px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-color: #2C4027;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.button a:hover {
+    background-color: #F2F2F2;
+    color: #232526;
+}
+
+
+
+h2 {
+    font-size: 1.75rem;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.link {
+    margin-top: 12px;
+    margin-bottom: 18px;
+    color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.link .signup {
+    color: #42732C;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.signup:hover {
+    /* transform: scale(1.05); */
+    text-decoration: underline;
+} 
+
+.forgot:hover {
+    /* transform: scale(1.05); */
+    text-decoration: underline;
+} 
+
+.button input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2C4027;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    color: white;
+}
+
+.button input:hover {
+    background-color:#F2F2F2 ;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
