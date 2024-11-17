@@ -22,14 +22,17 @@
     }
 
     .card-ava{
+        flex-direction: column;
+        display: flex;
+        grid-template-columns: 1fr;
+
+    }
+
+    .card-ava{
         width: 150px;
         height: 680px;
         border-radius: 5%;
-        margin-bottom: px;
-    }
-
-    .h2-ava{
-    font-size: ;
+        margin-bottom: 20px;
     }
 
 }
