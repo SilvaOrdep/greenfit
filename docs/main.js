@@ -1,3 +1,5 @@
+const form = document.querySelector('.formsContato');
+const inputdoEmail = document.querySelector('.email');
 const slides = document.querySelectorAll(".slides img");
 let slideIndex = 0;
 let intervalId = null;
@@ -35,8 +37,8 @@ function nextSlide() {
   slideIndex++;
   showSlide(slideIndex);
 }
-const form = document.querySelector('.formsContato');
-const inputdoEmail = document.querySelector('.email');
+
+// forms validation
 
 function receberEvento(evento) {
   evento.preventDefault();
