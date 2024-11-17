@@ -8,14 +8,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
+html,
 body {
-    flex: 1;  
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  flex: 1;
   font-family: "Poppins", sans-serif;
   margin: 0%;
   padding: 0%;
@@ -174,7 +175,7 @@ body {
 
 /* Estilos para o rodapé */
 footer {
-    flex-shrink: 0;
+  flex-shrink: 0;
   /* background-color: #2C4027; */
   color: white;
   padding: 20px 0;
@@ -350,7 +351,6 @@ footer {
 /* ava */
 
 .ava-main {
-
   margin-bottom: 10px;
 }
 
@@ -406,6 +406,61 @@ footer {
 .star {
   width: 20px;
 }
+/*formulario de contato*/
+section.formulario {
+  padding: 80px 4%;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.titulo{
+ text-align: center; 
+}
+.interface h2{
+  font-size: 40px;
+  color: #000000;
+}
+.interface h2 span{
+  color: #406a36;
+
+}
+
+form input,
+form textarea {
+  width: 100%;
+  background-color: #2f2f2f24;
+  outline: 0;
+  border: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #000;
+  font-size: 18px;
+}
+form textarea {
+  resize: none;
+  max-height: 200px;
+}
+form .botao-enviar {
+  margin-top: 20px;
+  text-align: center;
+}
+form .botao-enviar input {
+  width: 120px;
+  background-color: #37893b;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+  
+}
+form .botao-enviar input:hover {
+  box-shadow: 0px 0px 8px #2e7d32;
+  transform: scale(1.05);
+}
 
 @media screen and (max-width: 1024px) {
   .btn-navbar {
@@ -456,7 +511,6 @@ footer {
   }
 
   /*Espaçamento entre a section e footer*/
-  
 
   /* Estilos para o catálogo */
   .produto {
