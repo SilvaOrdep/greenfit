@@ -475,7 +475,7 @@ form textarea {
   border: 0;
   padding: 20px 15px;
   border-radius: 15px;
-  color: #000;
+  color: #ffffff;
   font-size: 18px;
 }
 form textarea {
@@ -498,6 +498,13 @@ form .botao-enviar input:hover {
   box-shadow: 0px 0px 8px #2e7d32;
   transform: scale(1.05);
 }
+.barra {  
+  width:100%;
+  height: 5px; 
+  background-color: green;  
+  border-radius: 50px;
+  margin-bottom: 10px;
+}  
 
 @media screen and (max-width: 1024px) {
   .btn-navbar {
@@ -529,6 +536,14 @@ form .botao-enviar input:hover {
     margin-top: 10px;
     font-size: 50px;
   }
+  /*Barra verde abaixo do fale conosco*/
+  .barra {  
+    width: 100%;
+    height: 5px; 
+    background-color: green;  
+    border-radius: 50px;
+    margin-bottom: 10px;
+}  
 
   /*Formatação da section "cards-ava"*/
   .cards-ava {
