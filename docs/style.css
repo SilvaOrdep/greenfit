@@ -401,39 +401,77 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-    .btn-navbar {
-      margin-top: 14px;
-    }
-  
-    /*Banner do site*/
-    .carousel-inner {
-      margin-top: 70px;
-    }
-  
-    /*"Sobre nós"*/
-    .sobre-todo-conteudo {
-      flex-direction: column;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .card-ava {
-      flex-direction: column;
-      display: flex;
-      grid-template-columns: 1fr;
-    }
-  
-    .card-ava {
-      width: 150px;
-      height: 680px;
-      border-radius: 5%;
-      margin-bottom: 20px;
-    }
-  
-    /* Estilos para o catálogo */
-    .produto {
-      width: 50%;
-    }
+  .btn-navbar {
+    margin-top: 14px;
   }
+
+  /*Banner do site*/
+  .carousel-inner {
+    margin-top: 70px;
+  }
+
+  /*Tamanho da section "Sobre nós"*/
+  #sobre {
+    height: 110cap;
+  }
+
+  /*Tamanho do titulo do sobre nós*/
+  .sobre-nos h2 {
+    font-size: 50px;
+  }
+  /*Divs de valores, missão e compromisso*/
+  .cardsg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*Tamanho do titulo das avaliações*/
+  .h2-ava {
+    margin-top: 10px;
+    font-size: 50px;
+  }
+
+  /*Formatação da section "cards-ava"*/
+  .cards-ava {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 50%;
+  }
+
+  /*Formatação das divs dentro da section*/
+  .card-ava {
+    width: 370px;
+    height: 360px;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    padding: 5px;
+  }
+
+  /*Espaçamento entre a section e footer*/
+  footer {
+    margin-top: 160%;
+  }
+
+  /* Estilos para o catálogo */
+  .produto {
+    width: 50%;
+  }
+
+  /* Estilos para o catálogo */
+  #catalogo {
+    padding: 20px;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .produto {
+    width: 49%;
+  }
+  .catalogo-main {
+    margin: 30px 20px;
+  }
+  .catalogo-main h2 {
+    font-size: 3rem;
+  }
+}
