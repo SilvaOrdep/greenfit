@@ -8,8 +8,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
 body {
+    flex: 1;  
   font-family: "Poppins", sans-serif;
   margin: 0%;
   padding: 0%;
@@ -168,6 +174,7 @@ body {
 
 /* Estilos para o rodapé */
 footer {
+    flex-shrink: 0;
   /* background-color: #2C4027; */
   color: white;
   padding: 20px 0;
@@ -343,8 +350,8 @@ footer {
 /* ava */
 
 .ava-main {
-  height: 100vh;
-  margin-bottom: 60px;
+
+  margin-bottom: 10px;
 }
 
 .card-ava .user-ava {
@@ -449,9 +456,7 @@ footer {
   }
 
   /*Espaçamento entre a section e footer*/
-  footer {
-    margin-top: 160%;
-  }
+  
 
   /* Estilos para o catálogo */
   .produto {
