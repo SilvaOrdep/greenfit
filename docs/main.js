@@ -46,7 +46,7 @@ function receberEvento(evento) {
   }
 
   if (!validarEmail(inputdoEmail.value)) {
-    alert('Por favor, insira um e-mail válido. ex: nathan123@gmail.com');
+    alert('Por favor, insira um e-mail válido. ex: pedro123@gmail.com');
     return;
   }
 }
