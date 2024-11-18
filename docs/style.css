@@ -409,7 +409,7 @@ footer {
 }
 
 .cards-ava {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   max-width: 980px;
   margin: 60px auto;
