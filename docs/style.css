@@ -466,7 +466,6 @@ form {
   color: #406a36;
 
 }
-
 form input,
 form textarea {
   width: 100%;
@@ -481,16 +480,19 @@ form textarea {
   resize: none;
   max-height: 200px;
 }
+
 form .botao-enviar {
   margin-top: 20px;
   text-align: center;
 }
+
 form .botao-enviar input {
   width: 120px;
   background-color: #37893b;
   font-weight: 700;
   cursor: pointer;
   transition: 0.2s;
+  color: white;
   
 }
 form .botao-enviar input:hover {
@@ -560,8 +562,6 @@ form .botao-enviar input:hover {
     margin-bottom: 30px;
     padding: 5px;
   }
-
-  /*Espaçamento entre a section e footer*/
 
   /* Estilos para o catálogo */
   .produto {
